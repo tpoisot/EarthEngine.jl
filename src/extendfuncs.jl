@@ -12,6 +12,7 @@ import Base:
     ceil,
     cos,
     cosh,
+    dict,
     exp,
     first,
     float,

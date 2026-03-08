@@ -1,8 +1,7 @@
-# EarthEngine.jl
+# GlobeMachine.jl
 
-Google Earth Engine in Julia!
-
-![logo](docs/src/assets/logo-small.png)
+This is a fork of the Google Earth Engine Julia package, which seems to have
+been abandonned.
 
 `EarthEngine.jl` is used to interface with the _amazing_ cloud-based geospatial processing platform, [Google Earth Engine](https://earthengine.google.com), using the [Julia](https://julialang.org/) programming language as a wrapper around the [EE Python API](https://developers.google.com/earth-engine/guides/python_install).
 

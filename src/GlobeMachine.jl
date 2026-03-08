@@ -1,6 +1,6 @@
 __precompile__(true)
 
-module EarthEngine
+module GlobeMachine
 
 using Logging
 using PyCall
@@ -249,7 +249,7 @@ function Authenticate(args...; kwargs...)
 end
 
 # create an abreviated variable for the module
-const EE = EarthEngine
+const EE = GlobeMachine
 
 export EE, ee, Initialize, @eefunc
 

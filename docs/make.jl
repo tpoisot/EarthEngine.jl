@@ -1,6 +1,6 @@
 push!(LOAD_PATH,"../src/")
 
-using Documenter, EarthEngine
+using Documenter, GlobeMachine
 
 pages = [
     "Home" => "index.md",
@@ -15,10 +15,10 @@ pages = [
 ]
 
 makedocs(;
-    modules = [EarthEngine],
+    modules = [GlobeMachine],
     authors = "Kel Markert",
-    repo = "https://github.com/KMarkert/EarthEngine.jl/blob/{commit}{path}#L{line}",
-    sitename = "EarthEngine.jl",
+    repo = "https://github.com/tpoisot/GlobeMachine.jl/blob/{commit}{path}#L{line}",
+    sitename = "GlobeMachine.jl",
     # format = Documenter.HTML(;
     #     prettyurls = get(ENV, "CI", "false") == "true",
     #     canonical = "https://deltares.github.io/Wflow.jl",
@@ -29,6 +29,6 @@ makedocs(;
 
 deploydocs(;
     deps = Deps.pip("earthengine-api"),
-    repo = "github.com/KMarkert/EarthEngine.jl.git",
+    repo = "github.com/tpoisot/GlobeMachine.jl.git",
     devbranch = "main"
 )
